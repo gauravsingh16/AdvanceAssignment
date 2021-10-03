@@ -53,9 +53,8 @@ Average: 2.7
 ### implemented By *Shreyansh Singh*:
 
 In this module, We start with any positive integer 'N'.  If 'N' is even, then the next number in the sequence is 10 N/2.  If 'N' is odd, then the next number is 3N+ 1.  The same rules are then applied to the newly produced number and so on until we reach the number1, when we stop.
-
+The expected output is as follow:
 ```
-
 Enter the Starting Number :12
 12 
 6
