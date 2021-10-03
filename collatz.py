@@ -6,6 +6,4 @@ def collatz():
             x=x/2
         else:
             x=(3*x)+1
-        print(int(x))
-        
-collatz()
+        print(int(x))       
