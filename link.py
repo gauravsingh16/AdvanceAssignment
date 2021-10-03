@@ -1,5 +1,5 @@
 import urllib.error
-import requests
+import urllib.request
 
 def test_link():
     url = input('Enter a URL: ' )
