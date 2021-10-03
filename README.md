@@ -37,3 +37,20 @@ Die 7: 2
 Average: 2.7
 
 ```
+
+## 4. Collatz Sequence
+### Implemented By *Shreyansh Singh*:
+In this Module We start withany positive integern.  If n is even, then the next number in the sequence is n/2.  If n is odd, then the next number is 3n+ 1.  The same rules are the n applied to the newly produced number and so on until we reach the number 1, when we stop.
+``` 
+Enter the Starting Number : 12
+12
+6
+3
+10
+5
+16 
+8
+4
+2
+1
+```
