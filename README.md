@@ -18,3 +18,22 @@ Enter a number: 10
 9! = 362880
 10! = 3628800
 ```
+
+
+## 3. Randomness
+### implemented By *Nidhi C B*:
+In this module we take input from user as a number 'N' and the result of throwing 'N' die  and the average of those numbers is printed.
+The expected output of this module is as follows:
+
+```
+Enter a number of dice to throw: 7
+Die 1: 2
+Die 2: 3
+Die 3: 2
+Die 4: 2
+Die 5: 3
+Die 6: 5
+Die 7: 2
+Average: 2.7
+
+```
