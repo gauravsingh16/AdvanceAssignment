@@ -1,7 +1,6 @@
 import urllib
-import requests
-
 def test_link(url):
+    url = input('Enter a URL: ')
     try:   
         result = urllib.request.urlopen(url,None,4).getcode()
         if result == 200:
@@ -13,6 +12,3 @@ def test_link(url):
         return False
     except urllib.error.URLError as e:
         return e
-
-url = input('Enter a URL: ')
-test_link(url)
