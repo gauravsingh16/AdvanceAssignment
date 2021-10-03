@@ -1,5 +1,5 @@
 import urllib
-def test_link(url):
+def test_link():
     url = input('Enter a URL: ')
     try:   
         result = urllib.request.urlopen(url,None,4).getcode()
